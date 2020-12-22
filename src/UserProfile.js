@@ -1,9 +1,11 @@
-import React from 'react';
-import './Chats.css'
+import React, {Component} from 'react';
 import Chat from "./Chat";
 
+const name = 'vlad'
+const placeOfBirth = 'Kyiv'
+let age = '19'
 
-function Chats() {
+function UserProfile() {
     return (
         <div className="chats">
             <Chat
@@ -43,4 +45,4 @@ function Chats() {
     )
 }
 
-export default Chats
+export default UserProfile;
